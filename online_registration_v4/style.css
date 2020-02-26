@@ -26,6 +26,36 @@ p {
     color: gray;
 }
 
+form {
+    width: 80%;
+    margin: auto;
+    
+}
+
+legend {
+ font-weight: bold;
+ padding: 20px;
+}
+
+fieldset {
+    width: 100%;
+    padding: 10px;
+}
+label,
+input {
+    display: block;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(222, 219, 215);
+}
+
+button {
+    width: 80%;
+    padding: 10px;
+    margin: 20px;
+}
 .container-1 {
     display: flex;
     
@@ -38,9 +68,11 @@ p {
     width: 90%;
     margin: auto;
     justify-content: space-evenly;
-    
-    
+}
 
+.newsletter {
+    padding: 15px;
+    margin: 15px;
 }
 
 .footer {
