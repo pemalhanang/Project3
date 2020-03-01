@@ -2,7 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
     }
+ 
+body {
+    font-family: merriweather;
+}    
 
 header {
     text-align: center;
@@ -15,6 +20,7 @@ header {
 }
 
 .para1 {
+    
     padding: 10px;
     border-bottom: 5px solid black;
 }
@@ -46,37 +52,66 @@ input:focus {
     
 }
 
-legend {
- 
- padding: 20px;
+
+
+.legend1 {
+    width: 85%;
+    margin: auto;
+    
+    padding-top: 35px;
+    font-size: 24px;
+    font-weight: bold;
+    border-top: 2px solid black;
+
 }
 
-/* fieldset {
-    width: 100%;
-    padding: 10px;
-} */
+fieldset {
+    border: 0;
+    margin-left: 10px;
+}
 label {
     display: inline;
     margin: 15px;
+    font-size: 20px;
 }
 input,
 select {
-    padding: 10px;
+    padding: 15px;
     background-color: rgb(222, 219, 215);
+}
+
+.newsletter {
+    border-top: 2px solid black;
+    width: 75%;
+    margin: auot;
+    padding: 20px;
+    
+}
+
+.format {
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+}
+
+h2 {
+    padding-bottom: 20px;
+    font-size: 30px;
 }
 
 .checkbox {
     width: 80%;
     padding: 5px;
-    
+    font-size: 25px;
     
     
 }
 
 .radio {
-    width: 80%;
+    width: 75%;
     padding: 5px;
-    margin-left: 5px;
+    margin: auto;
+    font-size: 25px;
     
     
     
@@ -86,31 +121,29 @@ select {
 button {
     display: flex;
     align-content: center;
-    width: 60%;
+    
+    width: 65%;
     padding: 20px;
-    font-size: 25px;
+    font-size: 35px;
     margin: auto;
     background-color: rgb(17, 190, 133);
     border-radius: 8px;
 }
 
-.newsletter {
-    padding: 15px;
-    margin: 15px;
-}
-
 textarea {
     background-color: rgb(216, 212, 212);
-    width: 55%;
-    padding: 45px;
-    margin-left: 10px;
+    width: 75%;
+    padding: 15px;
+    margin: auto;
     border-radius: 10px;
     font-size: 16px;
 }
 
 .footer {
     text-align: center;
+    font-size: 25px;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 45px;
 } 
 
