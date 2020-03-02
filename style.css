@@ -9,7 +9,7 @@ body {
     font-family: merriweather;
 }    
 
-header {
+h1 {
     text-align: center;
     padding: 20px;
     margin: 0 0 20px 0;
@@ -19,9 +19,14 @@ header {
     color: white;
 }
 
+h2 {
+    text-align: center;
+}
+
 .para1 {
-    
+    width: 90%;
     padding: 10px;
+    margin: auto;
     border-bottom: 5px solid black;
 }
 
@@ -61,7 +66,7 @@ input:focus {
     padding-top: 35px;
     font-size: 24px;
     font-weight: bold;
-    border-top: 2px solid black;
+    
 
 }
 
@@ -71,7 +76,6 @@ fieldset {
 }
 label {
     display: inline;
-    margin: 15px;
     font-size: 20px;
 }
 input,
@@ -82,8 +86,9 @@ select {
 
 .newsletter {
     border-top: 2px solid black;
-    width: 75%;
+    width: 90%;
     margin: auot;
+    text-align: left;
     padding: 20px;
     
 }
@@ -91,11 +96,10 @@ select {
 .format {
     width: 75%;
     margin: auto;
-    padding: 10px;
+    
 }
-
 h2 {
-    padding-bottom: 20px;
+    padding: 20px;
     font-size: 30px;
 }
 
@@ -147,3 +151,7 @@ textarea {
     margin-bottom: 45px;
 } 
 
+
+@media (min-width: 768px) {
+
+}
