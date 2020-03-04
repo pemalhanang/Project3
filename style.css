@@ -51,9 +51,9 @@ input:focus {
     display: flex;
     flex-direction: column;
     width: 90%;
-    padding: 20px;
     margin: auto;
     justify-content: space-evenly;
+    padding-bottom: 20px;
     
 }
 
@@ -106,15 +106,10 @@ h2, h3 {
     font-size: 30px;
 }
 
-
-
 .checkbox {
     width: 80%;
     padding: 5px;
     font-size: 25px;
-    
-    
-    
 }
 
 .radio {
@@ -130,18 +125,18 @@ h2, h3 {
 textarea {
     margin-top: 20px;
     width: 90%;
-    padding: 25px;
+    padding: 55px;
     background-color: rgb(205, 204, 203);
     border-radius: 8px;
 }
 
 button {
     text-align: center;
-    
+    display: block;
     width: 90%;
     padding: 20px;
     font-size: 35px;
-    margin-top: 20px;
+    margin: 20px auto 0 0;
     background-color: rgb(17, 190, 133);
     border-radius: 8px;
 }
@@ -156,10 +151,11 @@ button {
     .first-part {
         display: flex;
         flex-direction: row;
-        width: 90%;
-        padding: 20px;
-        margin: auto;
-        justify-content: space-evenly;
+        flex-basis: 90%;
+        justify-content: stretch;
+        
+        
+        
         
     }
 }
