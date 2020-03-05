@@ -148,14 +148,15 @@ button {
 }
 
 @media (min-width: 768px) {
-    .first-part {
+    .row {
         display: flex;
-        flex-direction: row;
-        flex-basis: 90%;
-        justify-content: stretch;
+        align-items: center;
+        justify-content: space-between;
+        flex: auto;
         
-        
-        
-        
-    }
+}
+input,
+select {
+     flex-basis: 75%;
+ }   
 }
