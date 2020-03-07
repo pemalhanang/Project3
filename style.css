@@ -161,6 +161,10 @@ button {
         justify-content: flex-start;
 }
 
+label {
+    width: 30%;
+}
+
 .first-part {
     flex-basis: 25%;
 }
