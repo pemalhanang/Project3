@@ -1,6 +1,3 @@
-
-@import url('https://fonts.google.com/specimen/Merriweather');
-
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +6,7 @@
     }
  
 body {
-    font-family: merriweather specimen;
+    font-family: 'Merriweather', serif;
 }
 
 
