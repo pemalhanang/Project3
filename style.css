@@ -61,19 +61,23 @@ input:focus {
     padding-bottom: 20px;
     
 }
+legend {
+    text-align: left;
+    padding-top: 35px;
+    font-size: 24px;
+    font-weight: bold;
+}
 
 
 
-.legend1 {
+/* .legend1 {
     width: 85%;
     margin: auto;
     
     padding-top: 35px;
     font-size: 24px;
     font-weight: bold;
-    
-
-}
+} */
 
 fieldset {
     border: 0;
@@ -91,24 +95,32 @@ select {
     background-color: rgb(222, 219, 215);
 }
 
+.fieldset1 input,
+.fieldset1 select {
+  height: 50px;
+}
+
+
+
 #state {
     height: 47px;
 }
+
+
 
 .newsletter {
     width: 90%;
     text-align: left;
     margin: 0;
-    padding-top: 30px;
     padding-bottom: 20px;
     border-top: 2px solid black;
     
 }
 
 .nl-format {
-   padding: 20px;
-   margin-top: 40px;
-   padding-bottom: 20px;
+   display: block;
+   margin-top: 20px;
+   padding: 0;
 }
 
 .format {
@@ -168,14 +180,15 @@ button {
     .first-part {
         flex-direction: row;
         justify-content: flex-start;
+        margin: 0;
 }
 
-label {
-    width: 30%;
-}
 
-.first-part {
-    flex-basis: 25%;
+
+.first-part label {
+    flex-basis: 30%;
+    padding: 0;
+    margin: auto 0;
 }
 
 input,
